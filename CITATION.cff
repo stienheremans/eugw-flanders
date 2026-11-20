@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "eugw-flanders: Download and Mosaic EU Grassland Watch Data for Flanders"
+version: 0.1.0
+date-released: 2026-11-20
+license: MIT
+type: software
+authors:
+  - given-names: "Stien"
+    family-names: "Heremans"
+    affiliation: "Research Institute for Nature and Forest (INBO)"
+repository-code: "https://github.com/stienheremans/eugw-flanders"

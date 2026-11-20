@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eugw-flanders"
+version = "0.1.0"
+description = "Download and mosaic EU Grassland Watch (EUGW) 10m indicators for Flanders"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Stien Heremans" }
+]
+keywords = ["grassland", "remote-sensing", "flanders", "copernicus", "gdal", "eugw", "eu-grassland-watch"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: GIS",
+]
+dependencies = [
+    "requests>=2.28.0",
+    "urllib3>=1.26.0",
+]
+
+[project.scripts]
+eugw-download = "eugw_flanders.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

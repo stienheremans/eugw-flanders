@@ -1,0 +1,13 @@
+eugw_data/
+test_out/
+*.tif
+*.tiff
+*.vrt
+*.part
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.DS_Store
+Thumbs.db
